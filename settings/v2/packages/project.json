@@ -1,0 +1,14 @@
+{
+  "__version__": "1.0.6",
+  "physics": {
+    "gravity": {
+      "y": -20
+    }
+  },
+  "general": {
+    "designResolution": {
+      "width": 393,
+      "height": 852
+    }
+  }
+}
