@@ -1,0 +1,170 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "97664": {
+      "importer": "gltf-animation",
+      "uuid": "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@97664",
+      "displayName": "",
+      "id": "97664",
+      "name": "Armature|Take 001|BaseLayer.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.0416667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "e2349": {
+      "importer": "gltf-mesh",
+      "uuid": "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@e2349",
+      "displayName": "",
+      "id": "e2349",
+      "name": "Mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 3740
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9d1d": {
+      "importer": "gltf-skeleton",
+      "uuid": "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@f9d1d",
+      "displayName": "",
+      "id": "f9d1d",
+      "name": "Armature.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 9
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3acc5": {
+      "importer": "gltf-material",
+      "uuid": "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@3acc5",
+      "displayName": "",
+      "id": "3acc5",
+      "name": "secondary.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4616": {
+      "importer": "gltf-material",
+      "uuid": "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@b4616",
+      "displayName": "",
+      "id": "b4616",
+      "name": "main.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "792eb": {
+      "importer": "gltf-scene",
+      "uuid": "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@792eb",
+      "displayName": "",
+      "id": "792eb",
+      "name": "mob-super-great-normie.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "Armature|Take 001|BaseLayer",
+        "duration": 2.0416667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Armature|Take 001|BaseLayer",
+            "from": 0,
+            "to": 2.0416667461395264,
+            "wrapMode": 2,
+            "previousId": "97664"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@e2349"
+      ],
+      "skeletons": [
+        "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@f9d1d"
+      ],
+      "textures": [],
+      "materials": [
+        "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@3acc5",
+        "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@b4616"
+      ],
+      "scenes": [
+        "0bfc1378-91ae-469f-96d1-5e2d4fad1fcc@792eb"
+      ]
+    }
+  }
+}

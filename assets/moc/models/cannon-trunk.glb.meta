@@ -1,0 +1,153 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "2163ae1a-14ab-4422-b18b-5e376993748b",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "44b97": {
+      "importer": "gltf-mesh",
+      "uuid": "2163ae1a-14ab-4422-b18b-5e376993748b@44b97",
+      "displayName": "",
+      "id": "44b97",
+      "name": "Mesh.005.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1000
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6d79d": {
+      "importer": "gltf-animation",
+      "uuid": "2163ae1a-14ab-4422-b18b-5e376993748b@6d79d",
+      "displayName": "",
+      "id": "6d79d",
+      "name": "gun|gun|gun|gun|shot|gun|shot.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.2916667461395264
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "f9a3d": {
+      "importer": "gltf-skeleton",
+      "uuid": "2163ae1a-14ab-4422-b18b-5e376993748b@f9a3d",
+      "displayName": "",
+      "id": "f9a3d",
+      "name": "gun.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 13
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b904f": {
+      "importer": "gltf-material",
+      "uuid": "2163ae1a-14ab-4422-b18b-5e376993748b@b904f",
+      "displayName": "",
+      "id": "b904f",
+      "name": "lambert14.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4ac61": {
+      "importer": "gltf-scene",
+      "uuid": "2163ae1a-14ab-4422-b18b-5e376993748b@4ac61",
+      "displayName": "",
+      "id": "4ac61",
+      "name": "cannon-trunk.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "gun|gun|gun|gun|shot|gun|shot",
+        "duration": 2.2916667461395264,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "gun|gun|gun|gun|shot|gun|shot",
+            "from": 0,
+            "to": 2.2916667461395264,
+            "wrapMode": 2,
+            "previousId": "6d79d"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "2163ae1a-14ab-4422-b18b-5e376993748b@44b97"
+      ],
+      "skeletons": [
+        "2163ae1a-14ab-4422-b18b-5e376993748b@f9a3d"
+      ],
+      "textures": [],
+      "materials": [
+        "2163ae1a-14ab-4422-b18b-5e376993748b@b904f"
+      ],
+      "scenes": [
+        "2163ae1a-14ab-4422-b18b-5e376993748b@4ac61"
+      ]
+    }
+  }
+}
